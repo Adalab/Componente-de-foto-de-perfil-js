@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Componente para cargar una imagen de perfil</title>
+  <link rel="stylesheet" href="css/avatar.css">
+</head>
+<body>
+  <div class="action">
+    <button class="action__upload-btn js__profile-trigger" type="button">Get IMAGE!</button>
+    <input type="file" name="" id="img-selector" class="action__hiddenField js__profile-upload-btn">
+  </div>
+  <div class="profile">
+    <div class="profile__image js__profile-image" style="background-image:url(https://via.placeholder.com/300x300/cccccc/666666/?text=IMAGE)"></div>
+    <div class="profile__preview js__profile-preview"></div>
+
+  </div>
+  <script src="js/get-avatar.js"></script>
+</body>
+</html>
