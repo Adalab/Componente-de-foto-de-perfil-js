@@ -1,4 +1,4 @@
-# Componente de foto de perfil
+# Componente de foto de perfil (Javascript)
 Componente listo para usar con la subida de imagen de perfil
 
 ## Elementos
