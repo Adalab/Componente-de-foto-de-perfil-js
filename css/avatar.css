@@ -28,7 +28,7 @@
 .profile__image,
 .profile__preview {
   background-position: center;
-  backround-repeat: no-repeat;
+  backrgound-repeat: no-repeat;
   background-size: cover;
   border: 1px solid #ccc;
 }
