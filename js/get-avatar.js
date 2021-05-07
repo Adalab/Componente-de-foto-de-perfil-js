@@ -1,7 +1,6 @@
 'use strict';
 
 const fr = new FileReader();
-const uploadBtn = document.querySelector('.js__profile-trigger');
 const fileField = document.querySelector('.js__profile-upload-btn');
 const profileImage = document.querySelector('.js__profile-image');
 const profilePreview = document.querySelector('.js__profile-preview');
@@ -50,5 +49,4 @@ function fakeFileClick() {
  * - al botón visible para generar el click automático
  * - al campo oculto para cuando cambie su value
  */
-uploadBtn.addEventListener('click', fakeFileClick);
 fileField.addEventListener('change', getImage);

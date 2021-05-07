@@ -13,6 +13,7 @@
   font-size: 20px;
   padding: 10px 20px;
   width: 250px;
+  cursor: pointer;
 }
 .action__hiddenField {
   /* Ocultamos el input de tipo "file" porque no podemos 
