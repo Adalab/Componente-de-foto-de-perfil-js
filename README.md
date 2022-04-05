@@ -14,7 +14,6 @@ Tendremos que enlazar el archivo `get-avatar.js` a nuestro html y asegurarnos de
 | Elemento | Clase |
 |---|---|
 | Campo de tipo "file" | `js__profile-upload-btn` |
-| Botón | `js__profile-trigger`|
 | Contenedor principal de la imagen | `js__profile-image` |
 | Contenedor de la previsualización de la imagen | `js__profile-preview` |
 

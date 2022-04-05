@@ -37,14 +37,6 @@ function writeImage() {
 
 
 /**
- * Genera un click automático en nuesto campo de tipo "file"
- * que está oculto
- */
-function fakeFileClick() {
- fileField.click(); 
-}
-
-/**
  * Añadimos los listeners necesarios:
  * - al botón visible para generar el click automático
  * - al campo oculto para cuando cambie su value
