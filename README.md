@@ -7,7 +7,7 @@ Componente listo para usar con la subida de imagen de perfil
 Para que funcione correctamente necesitaremos estos elementos:
 
 - **Campo de tipo "file"**: no podemos darles estilos correctamente pero lo necesitamos para añadir un archivo; lo vamos a ocultar ;)
-- **Botón**: Podemos darle los estilos que queramos y al hacer click en él generaremos un clic automático en el campo oculto
+- **Label disfrazado de botón**: Podemos darle los estilos que queramos y al hacer click en él generaremos un clic automático en el campo oculto
 - **Contenedor principal de la imagen**: tiene una imagen por defecto a través del atributo style
 - **Contenedor de la previsualización de la imagen**: por defecto aparece vacío
 
