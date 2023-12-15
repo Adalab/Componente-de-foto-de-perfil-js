@@ -13,7 +13,7 @@ Para que funcione correctamente necesitaremos estos elementos:
 
 ## Cómo usarlo
 
-Tendremos que enlazar el archivo `get-avatar.js` a nuestro html y asegurarnos de que nuestros cuatro elementos tienen estas clases (además de las que usemos para dar estilos):
+Tendremos que enlazar el archivo `get-avatar.js` a nuestro html y asegurarnos de que tres de nuestros elementos tienen estas clases (además de las clases que usemos para dar estilos):
 
 | Elemento | Clase |
 |---|---|
