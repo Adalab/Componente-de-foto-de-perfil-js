@@ -14,10 +14,10 @@ const profilePreview = document.querySelector('.js__profile-preview');
  * al tener los datos listos
  * @param {evento} e 
  */
-function getImage(e){
-  const myFile = e.currentTarget.files[0];
-  fr.addEventListener('load', writeImage);
-  fr.readAsDataURL(myFile);
+function getImage(e) {
+    const myFile = e.currentTarget.files[0];
+    fr.addEventListener('load', writeImage);
+    fr.readAsDataURL(myFile);
 }
 
 
@@ -26,13 +26,22 @@ function getImage(e){
  * trabajar con ellos ;)
  */
 function writeImage() {
-  /* En la propiedad `result` de nuestro FR se almacena
-   * el resultado. Ese resultado de procesar el fichero que hemos cargado
-   * podemos pasarlo como background a la imagen de perfil y a la vista previa
-   * de nuestro componente.
-   */
-  profileImage.style.backgroundImage = `url(${fr.result})`;
-  profilePreview.style.backgroundImage = `url(${fr.result})`;
+    /* En la propiedad `result` de nuestro FR se almacena
+     * el resultado. Ese resultado de procesar el fichero que hemos cargado
+     * podemos pasarlo como background a la imagen de perfil y a la vista previa
+     * de nuestro componente.
+     */
+    profileImage.style.backgroundImage = `url(${fr.result})`;
+    profilePreview.style.backgroundImage = `url(${fr.result})`;
+
+    /* Si en lugar de establecer la imagen como fondo de un elemento, 
+      estás trabajando con una etiqueta <img> en el HTML, entonces en vez de 
+      asignar la imagen como background, debes establecer la URL en el atributo `src` de la imagen.
+      Para ello, reemplaza las dos líneas anteriores de código por las siguientes:
+    
+      profileImage.src = fr.result;
+      profilePreview.src = fr.result;
+    */
 }
 
 
